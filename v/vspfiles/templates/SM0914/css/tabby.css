@@ -1,0 +1,62 @@
+
+/*  Force browser to show a pointer on tab navigation. */
+/* line 2, /Users/cferdinandi/Sites/tabby/src/sass/components/_tabby.scss */
+.tabs a {
+  cursor: pointer;
+}
+
+/*  Hide tab content if javascript is enabled. */
+/* line 7, /Users/cferdinandi/Sites/tabby/src/sass/components/_tabby.scss */
+.js-tabby .tabs-pane {
+  display: none;
+  visibility: hidden;
+}
+
+/*  Show tab content when active class is added.
+ *  This class is added via javascript. */
+/* line 14, /Users/cferdinandi/Sites/tabby/src/sass/components/_tabby.scss */
+.tabs-pane.active {
+  display: block;
+  visibility: visible;
+}
+.DescriptionWrap {
+  margin-top: 50px;
+}
+ul.tabs {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+ul.tabs li {
+  background: #e1e1e1;
+  border: 2px solid #e1e1e1;
+  color: #4f4e4e;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 40px;
+  list-style: outside none none;
+  padding: 0 30px;
+  margin-right:5px;
+  margin-bottom:-2px;
+}
+ul.tabs li a{
+	text-decoration:none;
+}
+.MsoNormal inline {
+  line-height: 25px;
+}
+#tabc span {
+  line-height: 25px;
+}
+ul.tabs li.active {
+  background: #fff;
+  border-bottom: 0px !important;
+  line-height: 44px !important;
+  margin-bottom: -5px !important;
+}
+
+.colors_descriptionbox {
+  background-color: #fff;
+  border: 2px solid #e1e1e1;
+  padding: 10px 15px;
+}
